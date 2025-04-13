@@ -6,7 +6,8 @@ Garrison a building. This makes a military building to search nearby units and w
 
 #### return value
 
-none
+* **Since Version 1.5.0**: success \[0, 1]
+* Before: none
 
 ```lua
 WarriorsLib.GarrisonWarriors(Buildings.GetFirstBuilding(1, Buildings.GUARDTOWERSMALL),1)

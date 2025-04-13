@@ -6,7 +6,8 @@ Specifies what goods and how many a market or harbor shall transport. Use [Warri
 
 #### return value
 
-none
+* **Since Version 1.5.0**: success \[0, 1]
+* Before: none
 
 ```lua
 b1 = Buildings.GetFirstBuilding(1, Buildings.MARKETPLACE)

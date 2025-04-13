@@ -10,7 +10,8 @@ If **TRUE** the building will start to store goods of the specified type. If **F
 
 #### return value
 
-none
+* **Since Version 1.5.0**: success \[0, 1]
+* Before: none
 
 ```lua
 Buildings.AddBuilding(118, 58, 3, Buildings.STORAGEAREA)

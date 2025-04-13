@@ -6,7 +6,8 @@ Set the work area for a building. This is the same event that players can issue 
 
 #### return value
 
-none
+* **Since Version 1.5.0**: success \[0, 1]
+* Before: none
 
 ```lua
 WarriorsLib.SetBuildingWorkarea(Buildings.GetFirstBuilding(3, Buildings.BARRACKS),70, 33, 3)

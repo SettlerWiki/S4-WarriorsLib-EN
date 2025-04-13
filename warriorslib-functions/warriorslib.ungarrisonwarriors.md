@@ -14,7 +14,8 @@ If **TRUE** a bowman is ejected. Otherwise a swordman is ejected. This parameter
 
 #### return value
 
-none
+* **Since Version 1.5.0**: success \[0, 1]
+* Before: none
 
 ```lua
 WarriorsLib.UnGarrisonWarriors(Buildings.GetFirstBuilding(1, Buildings.GUARDTOWERSMALL),-1,1,1)

@@ -6,7 +6,8 @@ Set the target market/harbor of a market/harbor to establish a trading route.
 
 #### return value
 
-none
+* **Since Version 1.5.0**: success \[0, 1]
+* Before: none
 
 ```lua
 b1 = Buildings.GetFirstBuilding(1, Buildings.MARKETPLACE)

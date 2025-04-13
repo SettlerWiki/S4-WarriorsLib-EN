@@ -17,7 +17,8 @@ The amount of units that you want to queue for recruitment. This value is beside
 
 #### return value
 
-none
+* **Since Version 1.5.0**: success \[0, 1]
+* Before: none
 
 ```lua
 WarriorsLib.RecruitWarriors(Buildings.GetFirstBuilding(1, Buildings.BARRACKS), Settlers.BOWMAN_03, 5, 1)
